@@ -1,0 +1,73 @@
+#include <iostream>
+using namespace std;
+int main()
+
+{
+
+    int a0;
+
+    int a1;
+
+    int a2;
+    char name1[20];
+    cout << "enter the player1 name :: " << endl;
+    cin >> name1;
+    cout << "write the input for " << name1 << ":" << endl;
+    cin >> a0 >> a1 >> a2;
+
+    int b0;
+
+    int b1;
+
+    int b2;
+
+    char name2[20];
+    cout << "enter the player2 name :: " << endl;
+    cin >> name2;
+    cout << "write the input for " << name2 << ":" << endl;
+
+    cin >> b0 >> b1 >> b2;
+
+    int a = 0, b = 0;
+
+    if (a0 > b0)
+
+    {
+        a++;
+    }
+
+    if (a0 < b0)
+
+    {
+        b++;
+    }
+
+    if (a1 > b1)
+
+    {
+        a++;
+    }
+
+    if (a1 < b1)
+
+    {
+        b++;
+    }
+
+    if (a2 > b2)
+
+    {
+        a++;
+    }
+
+    if (a2 < b2)
+
+    {
+        b++;
+    }
+
+    cout << name1 << " has scored : " << a << " point " << endl;
+    cout << name2 << " has scored : " << b << " point " << endl;
+
+    return 0;
+}
